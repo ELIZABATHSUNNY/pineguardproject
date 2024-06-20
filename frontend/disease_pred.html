@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pineapple Disease Detection</title>
+<link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+<div class="container">
+  <h1>Pineapple Disease Detection</h1>
+  <br><br>
+  <center>
+    <input type="file" id="fileInput" accept="image/*" class="file-input"> 
+    <label for="fileInput" class="file-label">Upload Image</label>
+    <br><br>
+  </center>
+  <div id="imagePreview"></div>
+  <div id="loading" style="display: none;">Processing...</div>
+  <center>
+    <button onclick="handleSubmit()">Submit</button>
+  </center>
+  <div id="result"></div>
+</div>
+<script src="app3.js"></script>
+</body>
+</html>
